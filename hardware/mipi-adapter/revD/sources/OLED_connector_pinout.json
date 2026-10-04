@@ -1,0 +1,3560 @@
+{
+  "hardware": "Switch OLED HEG-CPU-01",
+  "connector": "N65099_AMS699VC01_OLED_CONN",
+  "edition": "full/NDA connector focus",
+  "replacement_panel": "Startek KD050HDOIN116-C000-a / RM67295",
+  "electrical_verification": false,
+  "numbering": "Source solder-pad IDs only. All physical mating contacts remain null. Anchors 44/45 are not contacts.",
+  "rows": [
+    {
+      "source_id": 1,
+      "physical_contact": null,
+      "pin_label": "1:TOUCH_RST_N",
+      "function_name": "TOUCH_RST_N",
+      "original_net": "Net491",
+      "net_name": "DAP4_SCLK",
+      "net_id": 207,
+      "category": "Touch",
+      "direction": "Host -> touch",
+      "voltage": "Logic voltage unknown",
+      "polarity": "Active low (firmware)",
+      "function": "Touch reset on PJ7; DAP4_SCLK is the Tegra mux-pad name.",
+      "endpoint": "N65106.AG31 / DAP4_SCLK; T214!AG29",
+      "tegra_ball": "AG31",
+      "tegra_pad_name": "DAP4_SCLK",
+      "t214_cell": "AG29",
+      "evidence": "B,W,H2",
+      "x": 520260000,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N65099",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AG31"
+        },
+        {
+          "part": "N65152",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 2,
+      "physical_contact": null,
+      "pin_label": "2:TOUCH_I2C_SCL",
+      "function_name": "TOUCH_I2C_SCL",
+      "original_net": "Net290",
+      "net_name": "GEN3_I2C_SCL",
+      "net_id": 430,
+      "category": "Touch",
+      "direction": "Host clock; open drain",
+      "voltage": "Pull-up supply unresolved",
+      "polarity": "I2C clock",
+      "function": "Touch I2C3 clock; tied pull-ups do not establish a voltage.",
+      "endpoint": "N65106.J31 / GEN3_I2C_SCL; T214!AG11",
+      "tegra_ball": "J31",
+      "tegra_pad_name": "GEN3_I2C_SCL",
+      "t214_cell": "AG11",
+      "evidence": "B,W,H2",
+      "x": 520457140,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64794",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64797",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64797",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "J31"
+        },
+        {
+          "part": "N65715",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 3,
+      "physical_contact": null,
+      "pin_label": "3:TOUCH_VDDIO_EST",
+      "function_name": "TOUCH_VDDIO_EST",
+      "original_net": "Net91",
+      "net_name": "TOUCH_VDDIO_EST",
+      "net_id": 9,
+      "category": "Touch power",
+      "direction": "Host supply -> touch (inferred)",
+      "voltage": "UNKNOWN",
+      "polarity": "Unknown",
+      "function": "Touch I/O/pull-up supply candidate; N65662.1 and N65093.4.",
+      "endpoint": "N65662.1; N65093.4",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,A",
+      "x": 520654289,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64794",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64795",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64901",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64902",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64902",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65093",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65369",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65370",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65582",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65662",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 4,
+      "physical_contact": null,
+      "pin_label": "4:VDD_1V8",
+      "function_name": "VDD_1V8",
+      "original_net": "Net10",
+      "net_name": "VDD_1V8",
+      "net_id": 641,
+      "category": "Power",
+      "direction": "Host supply -> panel",
+      "voltage": "1.8 V nominal; unmeasured",
+      "polarity": "Positive",
+      "function": "Shared rail; candidate Startek VDDIO supply. VDDIO names describe consumers, not a unique Tegra rail name.",
+      "endpoint": "N65104/N65105 VDD1; 36 T214 supply balls",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,W,M",
+      "x": 520851429,
+      "y": 542800000,
+      "startek_contact": 13,
+      "startek_mapping": "13 / VDDIO",
+      "endpoints": [
+        {
+          "part": "N64708",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64708",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64746",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64749",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64750",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64751",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64752",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64753",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64754",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64755",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64756",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64757",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64758",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64759",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64793",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64820",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64822",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64836",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64837",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64847",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64848",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64851",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64852",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64853",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64854",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64866",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64868",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64869",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64905",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64906",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64907",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65069",
+          "source_pin": "6"
+        },
+        {
+          "part": "N65075",
+          "source_pin": "A2"
+        },
+        {
+          "part": "N65077",
+          "source_pin": "D2"
+        },
+        {
+          "part": "N65077",
+          "source_pin": "D3"
+        },
+        {
+          "part": "N65087",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "F1"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "F12"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "G4"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "G9"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "T4"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "T9"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "U1"
+        },
+        {
+          "part": "N65104",
+          "source_pin": "U12"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "F1"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "F12"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "G4"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "G9"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "T4"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "T9"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "U1"
+        },
+        {
+          "part": "N65105",
+          "source_pin": "U12"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "J8"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF8"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AG8"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AH8"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "L9"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "M9"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "P9"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "R9"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AH9"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "M10"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "P10"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "U10"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "V10"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AE12"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AE14"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "H15"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AE17"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF18"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AG18"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "H20"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF20"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AG20"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AE21"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF21"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AG21"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AH21"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AE23"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC25"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "V26"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC26"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AD26"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "J28"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF28"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "J29"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "26"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "29"
+        },
+        {
+          "part": "N65170",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65173",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65174",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65175",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65176",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65177",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65178",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65181",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65183",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65184",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65185",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65186",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65187",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65188",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65189",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65190",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65191",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65194",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65201",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65205",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65207",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65208",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65209",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65211",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65212",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65212",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65217",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65218",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65226",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65227",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65228",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65233",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65235",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65245",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65249",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65250",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65251",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65252",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65254",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65263",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65264",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65265",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65266",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65269",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65270",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65293",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65297",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65319",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65320",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65321",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65330",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65332",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65339",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65359",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65368",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65372",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65378",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65399",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65402",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65424",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65429",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65439",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65440",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65441",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65444",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65445",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65446",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65447",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65448",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65449",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65450",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65451",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65452",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65452",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65455",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65467",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65470",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65471",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65472",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65475",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65478",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65479",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65480",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65481",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65486",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65494",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65496",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65500",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65507",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65508",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65509",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65511",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65513",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65516",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65519",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65522",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65523",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65524",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65525",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65529",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65530",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65532",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65535",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65539",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65540",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65545",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65546",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65557",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65559",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65563",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65574",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65575",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65576",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65577",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65581",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65584",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65591",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65605",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65605",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65606",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65634",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65644",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65644",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65646",
+          "source_pin": "5"
+        },
+        {
+          "part": "N65653",
+          "source_pin": "38"
+        },
+        {
+          "part": "N65655",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65655",
+          "source_pin": "9"
+        },
+        {
+          "part": "N65655",
+          "source_pin": "7"
+        },
+        {
+          "part": "N65655",
+          "source_pin": "13"
+        },
+        {
+          "part": "N65657",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65658",
+          "source_pin": "C4"
+        },
+        {
+          "part": "N65658",
+          "source_pin": "E3"
+        },
+        {
+          "part": "N65658",
+          "source_pin": "G5"
+        },
+        {
+          "part": "N65659",
+          "source_pin": "C2"
+        },
+        {
+          "part": "N65659",
+          "source_pin": "C6"
+        },
+        {
+          "part": "N65659",
+          "source_pin": "F2"
+        },
+        {
+          "part": "N65659",
+          "source_pin": "F6"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "C6"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "M4"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "N4"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "P3"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "P5"
+        },
+        {
+          "part": "N65668",
+          "source_pin": "5"
+        },
+        {
+          "part": "N65709",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65729",
+          "source_pin": "C2"
+        }
+      ]
+    },
+    {
+      "source_id": 5,
+      "physical_contact": null,
+      "pin_label": "5:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 521048570,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 6,
+      "physical_contact": null,
+      "pin_label": "6:DSI_A_D3_N",
+      "function_name": "DSI_A_D3_N",
+      "original_net": "Net466",
+      "net_name": "DSI_A_D3_N",
+      "net_id": 235,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Negative conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AF2 / DSI_A_D3_N; T214!D28",
+      "tegra_ball": "AF2",
+      "tegra_pad_name": "DSI_A_D3_N",
+      "t214_cell": "D28",
+      "evidence": "B,W,P",
+      "x": 521245720,
+      "y": 542800000,
+      "startek_contact": 28,
+      "startek_mapping": "28 / D3N",
+      "endpoints": [
+        {
+          "part": "N65028",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65028",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "6"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF2"
+        }
+      ]
+    },
+    {
+      "source_id": 7,
+      "physical_contact": null,
+      "pin_label": "7:DSI_A_D0_P",
+      "function_name": "DSI_A_D0_P",
+      "original_net": "Net465",
+      "net_name": "DSI_A_D0_P",
+      "net_id": 236,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Positive conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AD6 / DSI_A_D0_P; T214!H26",
+      "tegra_ball": "AD6",
+      "tegra_pad_name": "DSI_A_D0_P",
+      "t214_cell": "H26",
+      "evidence": "B,W,P",
+      "x": 521442860,
+      "y": 542800000,
+      "startek_contact": 24,
+      "startek_mapping": "24 / D0P",
+      "endpoints": [
+        {
+          "part": "N65027",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65027",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "7"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AD6"
+        }
+      ]
+    },
+    {
+      "source_id": 8,
+      "physical_contact": null,
+      "pin_label": "8:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 521640000,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 9,
+      "physical_contact": null,
+      "pin_label": "9:DSI_A_CLK_N",
+      "function_name": "DSI_A_CLK_N",
+      "original_net": "Net468",
+      "net_name": "DSI_A_CLK_N",
+      "net_id": 233,
+      "category": "DSI",
+      "direction": "Host -> panel clock",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Negative conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AC1 / DSI_A_CLK_N; T214!C25",
+      "tegra_ball": "AC1",
+      "tegra_pad_name": "DSI_A_CLK_N",
+      "t214_cell": "C25",
+      "evidence": "B,W,P",
+      "x": 521837140,
+      "y": 542800000,
+      "startek_contact": 22,
+      "startek_mapping": "22 / CLKN",
+      "endpoints": [
+        {
+          "part": "N65029",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65029",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "9"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC1"
+        }
+      ]
+    },
+    {
+      "source_id": 10,
+      "physical_contact": null,
+      "pin_label": "10:DSI_A_D1_P",
+      "function_name": "DSI_A_D1_P",
+      "original_net": "Net462",
+      "net_name": "DSI_A_D1_P",
+      "net_id": 239,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Positive conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AC6 / DSI_A_D1_P; T214!H25",
+      "tegra_ball": "AC6",
+      "tegra_pad_name": "DSI_A_D1_P",
+      "t214_cell": "H25",
+      "evidence": "B,W,P",
+      "x": 522034289,
+      "y": 542800000,
+      "startek_contact": 18,
+      "startek_mapping": "18 / D1P",
+      "endpoints": [
+        {
+          "part": "N65026",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65026",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "10"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC6"
+        }
+      ]
+    },
+    {
+      "source_id": 11,
+      "physical_contact": null,
+      "pin_label": "11:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 522231429,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 12,
+      "physical_contact": null,
+      "pin_label": "12:DSI_A_D2_N",
+      "function_name": "DSI_A_D2_N",
+      "original_net": "Net470",
+      "net_name": "DSI_A_D2_N",
+      "net_id": 230,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Negative conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AC9 / DSI_A_D2_N; T214!K25",
+      "tegra_ball": "AC9",
+      "tegra_pad_name": "DSI_A_D2_N",
+      "t214_cell": "K25",
+      "evidence": "B,W,P",
+      "x": 522428570,
+      "y": 542800000,
+      "startek_contact": 16,
+      "startek_mapping": "16 / D2N",
+      "endpoints": [
+        {
+          "part": "N65030",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65030",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "12"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC9"
+        }
+      ]
+    },
+    {
+      "source_id": 13,
+      "physical_contact": null,
+      "pin_label": "13:NC_SOURCE",
+      "function_name": "NC_SOURCE",
+      "original_net": "NC",
+      "net_name": "NC",
+      "net_id": 644,
+      "category": "NC",
+      "direction": "None assigned",
+      "voltage": "N/A",
+      "polarity": "N/A",
+      "function": "Unconnected in source. Not a hardware-proven NC, reserved or DNC classification.",
+      "endpoint": "Source NC marker (not an electrical connection)",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 522625710,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave unconnected",
+      "endpoints": []
+    },
+    {
+      "source_id": 14,
+      "physical_contact": null,
+      "pin_label": "14:OLED_CTRL",
+      "function_name": "OLED_CTRL",
+      "original_net": "Net210",
+      "net_name": "OLED_CTRL",
+      "net_id": 518,
+      "category": "Bias control",
+      "direction": "Unresolved",
+      "voltage": "UNKNOWN logic level",
+      "polarity": "Unknown",
+      "function": "S2DOS04 CTRL, source pad 10 / manufacturer pin 9. Direction and exact protocol unresolved.",
+      "endpoint": "N65652 source 10 / mfr 9 CTRL",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,S",
+      "x": 522822860,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N65099",
+          "source_pin": "14"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "10"
+        },
+        {
+          "part": "N65724",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 15,
+      "physical_contact": null,
+      "pin_label": "15:OLED_STATUS_EST",
+      "function_name": "OLED_STATUS_EST",
+      "original_net": "Net490",
+      "net_name": "WIFI_EN",
+      "net_id": 208,
+      "category": "Control",
+      "direction": "Panel -> host (inferred)",
+      "voltage": "UNKNOWN logic level",
+      "polarity": "Unknown",
+      "function": "Tegra WIFI_EN / PH0. OLED-status role comes from commented firmware; not a verified TE signal.",
+      "endpoint": "N65106.AL9 / WIFI_EN; T214!K33",
+      "tegra_ball": "AL9",
+      "tegra_pad_name": "WIFI_EN",
+      "t214_cell": "K33",
+      "evidence": "B,W,H1",
+      "x": 523020000,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N65099",
+          "source_pin": "15"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AL9"
+        },
+        {
+          "part": "N65148",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 16,
+      "physical_contact": null,
+      "pin_label": "16:NC_SOURCE",
+      "function_name": "NC_SOURCE",
+      "original_net": "NC",
+      "net_name": "NC",
+      "net_id": 644,
+      "category": "NC",
+      "direction": "None assigned",
+      "voltage": "N/A",
+      "polarity": "N/A",
+      "function": "Unconnected in source. Not a hardware-proven NC, reserved or DNC classification.",
+      "endpoint": "Source NC marker (not an electrical connection)",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 523217140,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave unconnected",
+      "endpoints": []
+    },
+    {
+      "source_id": 17,
+      "physical_contact": null,
+      "pin_label": "17:NC_SOURCE",
+      "function_name": "NC_SOURCE",
+      "original_net": "NC",
+      "net_name": "NC",
+      "net_id": 644,
+      "category": "NC",
+      "direction": "None assigned",
+      "voltage": "N/A",
+      "polarity": "N/A",
+      "function": "Unconnected in source. Not a hardware-proven NC, reserved or DNC classification.",
+      "endpoint": "Source NC marker (not an electrical connection)",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 523414289,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave unconnected",
+      "endpoints": []
+    },
+    {
+      "source_id": 18,
+      "physical_contact": null,
+      "pin_label": "18:VDD_3V3",
+      "function_name": "VDD_3V3",
+      "original_net": "Net1",
+      "net_name": "VDD_3V3",
+      "net_id": 642,
+      "category": "Power",
+      "direction": "Host supply -> panel",
+      "voltage": "3.3 V nominal; unmeasured",
+      "polarity": "Positive",
+      "function": "MAX77801 output; candidate Startek VCI supply. Older alias AVDD_USB names one consumer.",
+      "endpoint": "N65075 source E3/E4 / mfr C1/D1 OUT",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,R,L",
+      "x": 523611429,
+      "y": 542800000,
+      "startek_contact": 30,
+      "startek_mapping": "30 / VCI",
+      "endpoints": [
+        {
+          "part": "N64709",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64709",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64710",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64735",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64842",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64844",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64898",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64898",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64908",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64909",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64913",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64914",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64928",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65037",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65038",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65072",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65072",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65073",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65075",
+          "source_pin": "E2"
+        },
+        {
+          "part": "N65075",
+          "source_pin": "E3"
+        },
+        {
+          "part": "N65075",
+          "source_pin": "E4"
+        },
+        {
+          "part": "N65078",
+          "source_pin": "6"
+        },
+        {
+          "part": "N65093",
+          "source_pin": "5"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "18"
+        },
+        {
+          "part": "N65103",
+          "source_pin": "B11"
+        },
+        {
+          "part": "N65103",
+          "source_pin": "B12"
+        },
+        {
+          "part": "N65103",
+          "source_pin": "E12"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF17"
+        },
+        {
+          "part": "N65160",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65160",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65161",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65162",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65203",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65219",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65291",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65300",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65328",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65333",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65340",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65343",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65345",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65346",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65347",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65348",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65380",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65381",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65383",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65384",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65385",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65433",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65435",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65518",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65549",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65617",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65643",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65651",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "16"
+        },
+        {
+          "part": "N65653",
+          "source_pin": "6"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "26"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "23"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "7"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "20"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "10"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "17"
+        },
+        {
+          "part": "N65654",
+          "source_pin": "13"
+        },
+        {
+          "part": "N65658",
+          "source_pin": "A4"
+        },
+        {
+          "part": "N65659",
+          "source_pin": "A5"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "E6"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "F5"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "J10"
+        },
+        {
+          "part": "N65660",
+          "source_pin": "K9"
+        },
+        {
+          "part": "N65723",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 19,
+      "physical_contact": null,
+      "pin_label": "19:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 523808570,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 20,
+      "physical_contact": null,
+      "pin_label": "20:OLED_VO1_VUNK",
+      "function_name": "OLED_VO1_VUNK",
+      "original_net": "Net6",
+      "net_name": "OLED_VO1",
+      "net_id": 87,
+      "category": "Bias power",
+      "direction": "Host supply -> stock panel",
+      "voltage": "UNKNOWN Switch bias voltage",
+      "polarity": "Unverified",
+      "function": "S2DOS04 VO1, source/manufacturer pad 3; same net as source ID 42.",
+      "endpoint": "N65652 source 3 / mfr 3 VO1",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,S",
+      "x": 524005710,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64712",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "20"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "42"
+        },
+        {
+          "part": "N65166",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65166",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65613",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65717",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 21,
+      "physical_contact": null,
+      "pin_label": "21:NC_SOURCE",
+      "function_name": "NC_SOURCE",
+      "original_net": "NC",
+      "net_name": "NC",
+      "net_id": 644,
+      "category": "NC",
+      "direction": "None assigned",
+      "voltage": "N/A",
+      "polarity": "N/A",
+      "function": "Unconnected in source. Not a hardware-proven NC, reserved or DNC classification.",
+      "endpoint": "Source NC marker (not an electrical connection)",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 524202860,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave unconnected",
+      "endpoints": []
+    },
+    {
+      "source_id": 22,
+      "physical_contact": null,
+      "pin_label": "22:OLED_VO2_VUNK",
+      "function_name": "OLED_VO2_VUNK",
+      "original_net": "Net7",
+      "net_name": "OLED_VO2",
+      "net_id": 33,
+      "category": "Bias power",
+      "direction": "Host supply -> stock panel",
+      "voltage": "UNKNOWN Switch bias voltage",
+      "polarity": "Unverified",
+      "function": "S2DOS04 VO2, source pad 6 / manufacturer pin 10; same net as source ID 43.",
+      "endpoint": "N65652 source 6 / mfr 10 VO2",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,S",
+      "x": 524400000,
+      "y": 542800000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64711",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "22"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "43"
+        },
+        {
+          "part": "N65167",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65167",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65610",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "6"
+        },
+        {
+          "part": "N65718",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 23,
+      "physical_contact": null,
+      "pin_label": "23:TOUCH_I2C_SDA",
+      "function_name": "TOUCH_I2C_SDA",
+      "original_net": "Net289",
+      "net_name": "GEN3_I2C_SDA",
+      "net_id": 432,
+      "category": "Touch",
+      "direction": "Bidirectional; open drain",
+      "voltage": "Pull-up supply unresolved",
+      "polarity": "I2C data",
+      "function": "Touch I2C3 data; preserve separate net from SCL.",
+      "endpoint": "N65106.L34 / GEN3_I2C_SDA; T214!AJ13",
+      "tegra_ball": "L34",
+      "tegra_pad_name": "GEN3_I2C_SDA",
+      "t214_cell": "AJ13",
+      "evidence": "B,W,H2",
+      "x": 520360000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64795",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64796",
+          "source_pin": "1"
+        },
+        {
+          "part": "N64796",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "23"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "L34"
+        },
+        {
+          "part": "N65714",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 24,
+      "physical_contact": null,
+      "pin_label": "24:TOUCH_INT",
+      "function_name": "TOUCH_INT",
+      "original_net": "Net489",
+      "net_name": "TOUCH_INT",
+      "net_id": 210,
+      "category": "Touch",
+      "direction": "Touch -> host (role)",
+      "voltage": "UNKNOWN logic level",
+      "polarity": "Unknown",
+      "function": "Touch interrupt. Active level not established by the ballout.",
+      "endpoint": "N65106.AD34 / TOUCH_INT; T214!AJ26",
+      "tegra_ball": "AD34",
+      "tegra_pad_name": "TOUCH_INT",
+      "t214_cell": "AJ26",
+      "evidence": "B,W",
+      "x": 520556500,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N65099",
+          "source_pin": "24"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AD34"
+        },
+        {
+          "part": "N65150",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 25,
+      "physical_contact": null,
+      "pin_label": "25:TOUCH_AVDD_2V9_EST",
+      "function_name": "TOUCH_AVDD_2V9_EST",
+      "original_net": "Net3",
+      "net_name": "TOUCH_AVDD_2V9_EST",
+      "net_id": 420,
+      "category": "Touch power",
+      "direction": "Host supply -> touch (inferred)",
+      "voltage": "2.9 V ESTIMATE; unmeasured",
+      "polarity": "Positive (inferred)",
+      "function": "PMIC B5 / touch circuit. Firmware sets LDO6 to 2.9 V; exact B5-to-LDO6 package proof remains incomplete.",
+      "endpoint": "N65658.B5; N65662.3/.4",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,A,H2",
+      "x": 520753000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64903",
+          "source_pin": "2"
+        },
+        {
+          "part": "N64903",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "25"
+        },
+        {
+          "part": "N65163",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65164",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65307",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65327",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65583",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65645",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65658",
+          "source_pin": "B5"
+        },
+        {
+          "part": "N65662",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65662",
+          "source_pin": "3"
+        }
+      ]
+    },
+    {
+      "source_id": 26,
+      "physical_contact": null,
+      "pin_label": "26:LCD_RST_N",
+      "function_name": "LCD_RST_N",
+      "original_net": "Net361",
+      "net_name": "LCD_RST",
+      "net_id": 351,
+      "category": "Reset",
+      "direction": "Host -> panel",
+      "voltage": "UNKNOWN host logic level",
+      "polarity": "Active low",
+      "function": "PV2 panel reset; logical candidate for Startek RESX pin 12. Verify level against target VDDIO.",
+      "endpoint": "N65106.AC34 / LCD_RST; T214!AJ25",
+      "tegra_ball": "AC34",
+      "tegra_pad_name": "LCD_RST",
+      "t214_cell": "AJ25",
+      "evidence": "B,W,H1,P",
+      "x": 520949500,
+      "y": 541850000,
+      "startek_contact": 12,
+      "startek_mapping": "12 / RESX",
+      "endpoints": [
+        {
+          "part": "N64855",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "26"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC34"
+        },
+        {
+          "part": "N65153",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 27,
+      "physical_contact": null,
+      "pin_label": "27:DSI_A_D3_P",
+      "function_name": "DSI_A_D3_P",
+      "original_net": "Net467",
+      "net_name": "DSI_A_D3_P",
+      "net_id": 234,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Positive conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AF3 / DSI_A_D3_P; T214!E28",
+      "tegra_ball": "AF3",
+      "tegra_pad_name": "DSI_A_D3_P",
+      "t214_cell": "E28",
+      "evidence": "B,W,P",
+      "x": 521146000,
+      "y": 541850000,
+      "startek_contact": 27,
+      "startek_mapping": "27 / D3P",
+      "endpoints": [
+        {
+          "part": "N65028",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65028",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "27"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AF3"
+        }
+      ]
+    },
+    {
+      "source_id": 28,
+      "physical_contact": null,
+      "pin_label": "28:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 521342500,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 29,
+      "physical_contact": null,
+      "pin_label": "29:DSI_A_D0_N",
+      "function_name": "DSI_A_D0_N",
+      "original_net": "Net464",
+      "net_name": "DSI_A_D0_N",
+      "net_id": 237,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Negative conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AD5 / DSI_A_D0_N; T214!G26",
+      "tegra_ball": "AD5",
+      "tegra_pad_name": "DSI_A_D0_N",
+      "t214_cell": "G26",
+      "evidence": "B,W,P",
+      "x": 521539000,
+      "y": 541850000,
+      "startek_contact": 25,
+      "startek_mapping": "25 / D0N",
+      "endpoints": [
+        {
+          "part": "N65027",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65027",
+          "source_pin": "4"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "29"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AD5"
+        }
+      ]
+    },
+    {
+      "source_id": 30,
+      "physical_contact": null,
+      "pin_label": "30:DSI_A_CLK_P",
+      "function_name": "DSI_A_CLK_P",
+      "original_net": "Net469",
+      "net_name": "DSI_A_CLK_P",
+      "net_id": 232,
+      "category": "DSI",
+      "direction": "Host -> panel clock",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Positive conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AD1 / DSI_A_CLK_P; T214!C26",
+      "tegra_ball": "AD1",
+      "tegra_pad_name": "DSI_A_CLK_P",
+      "t214_cell": "C26",
+      "evidence": "B,W,P",
+      "x": 521735500,
+      "y": 541850000,
+      "startek_contact": 21,
+      "startek_mapping": "21 / CLKP",
+      "endpoints": [
+        {
+          "part": "N65029",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65029",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "30"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AD1"
+        }
+      ]
+    },
+    {
+      "source_id": 31,
+      "physical_contact": null,
+      "pin_label": "31:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 521932000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 32,
+      "physical_contact": null,
+      "pin_label": "32:DSI_A_D1_N",
+      "function_name": "DSI_A_D1_N",
+      "original_net": "Net463",
+      "net_name": "DSI_A_D1_N",
+      "net_id": 238,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Negative conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AC7 / DSI_A_D1_N; T214!I25",
+      "tegra_ball": "AC7",
+      "tegra_pad_name": "DSI_A_D1_N",
+      "t214_cell": "I25",
+      "evidence": "B,W,P",
+      "x": 522128500,
+      "y": 541850000,
+      "startek_contact": 19,
+      "startek_mapping": "19 / D1N",
+      "endpoints": [
+        {
+          "part": "N65026",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65026",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "32"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC7"
+        }
+      ]
+    },
+    {
+      "source_id": 33,
+      "physical_contact": null,
+      "pin_label": "33:DSI_A_D2_P",
+      "function_name": "DSI_A_D2_P",
+      "original_net": "Net471",
+      "net_name": "DSI_A_D2_P",
+      "net_id": 229,
+      "category": "DSI",
+      "direction": "DSI data (HS host -> panel)",
+      "voltage": "MIPI D-PHY; not a DC supply",
+      "polarity": "Positive conductor",
+      "function": "Preserve lane number, pair polarity and return path; no GPIO level shifter. D0 protocol turnaround is not excluded.",
+      "endpoint": "N65106.AC8 / DSI_A_D2_P; T214!J25",
+      "tegra_ball": "AC8",
+      "tegra_pad_name": "DSI_A_D2_P",
+      "t214_cell": "J25",
+      "evidence": "B,W,P",
+      "x": 522325000,
+      "y": 541850000,
+      "startek_contact": 15,
+      "startek_mapping": "15 / D2P",
+      "endpoints": [
+        {
+          "part": "N65030",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65030",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "33"
+        },
+        {
+          "part": "N65106",
+          "source_pin": "AC8"
+        }
+      ]
+    },
+    {
+      "source_id": 34,
+      "physical_contact": null,
+      "pin_label": "34:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 522521500,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 35,
+      "physical_contact": null,
+      "pin_label": "35:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 522718000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 36,
+      "physical_contact": null,
+      "pin_label": "36:OLED_FD",
+      "function_name": "OLED_FD",
+      "original_net": "Net211",
+      "net_name": "OLED_FD",
+      "net_id": 517,
+      "category": "Bias control",
+      "direction": "Unresolved",
+      "voltage": "UNKNOWN level",
+      "polarity": "Unknown",
+      "function": "S2DOS04 FD, source/manufacturer pad 5. No expansion of FD behavior without exact functional documentation.",
+      "endpoint": "N65652 source 5 / mfr 5 FD",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,S",
+      "x": 522914500,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N65099",
+          "source_pin": "36"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "5"
+        },
+        {
+          "part": "N65725",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 37,
+      "physical_contact": null,
+      "pin_label": "37:NC_SOURCE",
+      "function_name": "NC_SOURCE",
+      "original_net": "NC",
+      "net_name": "NC",
+      "net_id": 644,
+      "category": "NC",
+      "direction": "None assigned",
+      "voltage": "N/A",
+      "polarity": "N/A",
+      "function": "Unconnected in source. Not a hardware-proven NC, reserved or DNC classification.",
+      "endpoint": "Source NC marker (not an electrical connection)",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 523111000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave unconnected",
+      "endpoints": []
+    },
+    {
+      "source_id": 38,
+      "physical_contact": null,
+      "pin_label": "38:NC_SOURCE",
+      "function_name": "NC_SOURCE",
+      "original_net": "NC",
+      "net_name": "NC",
+      "net_id": 644,
+      "category": "NC",
+      "direction": "None assigned",
+      "voltage": "N/A",
+      "polarity": "N/A",
+      "function": "Unconnected in source. Not a hardware-proven NC, reserved or DNC classification.",
+      "endpoint": "Source NC marker (not an electrical connection)",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 523307500,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave unconnected",
+      "endpoints": []
+    },
+    {
+      "source_id": 39,
+      "physical_contact": null,
+      "pin_label": "39:GND",
+      "function_name": "GND",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Ground in supplied boardview. Preserve a continuous DSI return plane.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 523504000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 40,
+      "physical_contact": null,
+      "pin_label": "40:OLED_VO3_VUNK",
+      "function_name": "OLED_VO3_VUNK",
+      "original_net": "Net27",
+      "net_name": "OLED_VO3",
+      "net_id": 453,
+      "category": "Bias power",
+      "direction": "Host supply -> stock panel",
+      "voltage": "UNKNOWN Switch bias voltage",
+      "polarity": "Unverified",
+      "function": "S2DOS04 VO3, source pad 9 / manufacturer pin 13.",
+      "endpoint": "N65652 source 9 / mfr 13 VO3",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,S",
+      "x": 523700500,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64713",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "40"
+        },
+        {
+          "part": "N65267",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65267",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65612",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "9"
+        },
+        {
+          "part": "N65713",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 41,
+      "physical_contact": null,
+      "pin_label": "41:NC_SOURCE",
+      "function_name": "NC_SOURCE",
+      "original_net": "NC",
+      "net_name": "NC",
+      "net_id": 644,
+      "category": "NC",
+      "direction": "None assigned",
+      "voltage": "N/A",
+      "polarity": "N/A",
+      "function": "Unconnected in source. Not a hardware-proven NC, reserved or DNC classification.",
+      "endpoint": "Source NC marker (not an electrical connection)",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 523897000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave unconnected",
+      "endpoints": []
+    },
+    {
+      "source_id": 42,
+      "physical_contact": null,
+      "pin_label": "42:OLED_VO1_VUNK",
+      "function_name": "OLED_VO1_VUNK",
+      "original_net": "Net6",
+      "net_name": "OLED_VO1",
+      "net_id": 87,
+      "category": "Bias power",
+      "direction": "Host supply -> stock panel",
+      "voltage": "UNKNOWN Switch bias voltage",
+      "polarity": "Unverified",
+      "function": "S2DOS04 VO1; duplicate of source ID 20, not a separate supply.",
+      "endpoint": "Same source net as ID 20",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,S",
+      "x": 524093500,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64712",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "20"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "42"
+        },
+        {
+          "part": "N65166",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65166",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65613",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "3"
+        },
+        {
+          "part": "N65717",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 43,
+      "physical_contact": null,
+      "pin_label": "43:OLED_VO2_VUNK",
+      "function_name": "OLED_VO2_VUNK",
+      "original_net": "Net7",
+      "net_name": "OLED_VO2",
+      "net_id": 33,
+      "category": "Bias power",
+      "direction": "Host supply -> stock panel",
+      "voltage": "UNKNOWN Switch bias voltage",
+      "polarity": "Unverified",
+      "function": "S2DOS04 VO2; duplicate of source ID 22, not a separate supply.",
+      "endpoint": "Same source net as ID 22",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B,S",
+      "x": 524290000,
+      "y": 541850000,
+      "startek_contact": null,
+      "startek_mapping": "Leave isolated for display-only adapter",
+      "endpoints": [
+        {
+          "part": "N64711",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "22"
+        },
+        {
+          "part": "N65099",
+          "source_pin": "43"
+        },
+        {
+          "part": "N65167",
+          "source_pin": "2"
+        },
+        {
+          "part": "N65167",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65610",
+          "source_pin": "1"
+        },
+        {
+          "part": "N65652",
+          "source_pin": "6"
+        },
+        {
+          "part": "N65718",
+          "source_pin": "1"
+        }
+      ]
+    },
+    {
+      "source_id": 44,
+      "physical_contact": null,
+      "pin_label": "44:GND_ANCHOR",
+      "function_name": "GND_ANCHOR",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Grounded mechanical anchor; not a flex contact.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 520000000,
+      "y": 542700000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    },
+    {
+      "source_id": 45,
+      "physical_contact": null,
+      "pin_label": "45:GND_ANCHOR",
+      "function_name": "GND_ANCHOR",
+      "original_net": "GND",
+      "net_name": "GND",
+      "net_id": 643,
+      "category": "Ground",
+      "direction": "Return",
+      "voltage": "0 V reference",
+      "polarity": "N/A",
+      "function": "Grounded mechanical anchor; not a flex contact.",
+      "endpoint": "Source ground",
+      "tegra_ball": null,
+      "tegra_pad_name": null,
+      "t214_cell": null,
+      "evidence": "B",
+      "x": 524650000,
+      "y": 542680000,
+      "startek_contact": null,
+      "startek_mapping": "Common GND; anchors remain mechanical",
+      "endpoints": []
+    }
+  ],
+  "net10_tegra_consumers": [
+    {
+      "source_pin": "J8",
+      "ball": "J8",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.07309431430553853,
+      "second_distance_fraction_pitch": null,
+      "x": 515812420,
+      "y": 534393490,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "AVDD_PLL_AC4P",
+      "cell": "J11",
+      "anchor": "J11",
+      "label_source": "cell",
+      "raw_cell_value": "AVDD_PLL_AC4P",
+      "display_pin": "J8"
+    },
+    {
+      "source_pin": "AF8",
+      "ball": "AF8",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.07634071316121542,
+      "second_distance_fraction_pitch": null,
+      "x": 515832420,
+      "y": 538736520,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDD_HDMI_DP_PLL",
+      "cell": "J28",
+      "anchor": "J28",
+      "label_source": "cell",
+      "raw_cell_value": "VDD_HDMI_DP_PLL",
+      "display_pin": "AF8"
+    },
+    {
+      "source_pin": "AG8",
+      "ball": "AG8",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.07203278725816517,
+      "second_distance_fraction_pitch": null,
+      "x": 515832420,
+      "y": 538992580,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDD18_DP",
+      "cell": "J29",
+      "anchor": "J29",
+      "label_source": "cell",
+      "raw_cell_value": "VDD18_DP",
+      "display_pin": "AG8"
+    },
+    {
+      "source_pin": "AH8",
+      "ball": "AH8",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.06788879657867514,
+      "second_distance_fraction_pitch": null,
+      "x": 515832420,
+      "y": 539248640,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "AVDD_PLL_D2DPD",
+      "cell": "J30",
+      "anchor": "J30",
+      "label_source": "cell",
+      "raw_cell_value": "AVDD_PLL_D2DPD",
+      "display_pin": "AH8"
+    },
+    {
+      "source_pin": "L9",
+      "ball": "L9",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.06802816536358938,
+      "second_distance_fraction_pitch": null,
+      "x": 515558480,
+      "y": 534905610,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_SDMMC4",
+      "cell": "K13",
+      "anchor": "K13",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_SDMMC4",
+      "display_pin": "L9"
+    },
+    {
+      "source_pin": "M9",
+      "ball": "M9",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.06279891827365633,
+      "second_distance_fraction_pitch": null,
+      "x": 515558480,
+      "y": 535161670,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_SDMMC2",
+      "cell": "K14",
+      "anchor": "K14",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_SDMMC2",
+      "display_pin": "M9"
+    },
+    {
+      "source_pin": "P9",
+      "ball": "P9",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.052473753087163164,
+      "second_distance_fraction_pitch": null,
+      "x": 515558480,
+      "y": 535673790,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_AUDIO_HV_BIAS",
+      "cell": "K16",
+      "anchor": "K16",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_AUDIO_HV_BIAS",
+      "display_pin": "P9"
+    },
+    {
+      "source_pin": "R9",
+      "ball": "R9",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.047406882793133494,
+      "second_distance_fraction_pitch": null,
+      "x": 515558480,
+      "y": 535929850,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_AUDIO_HV",
+      "cell": "K17",
+      "anchor": "K17",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_AUDIO_HV",
+      "display_pin": "R9"
+    },
+    {
+      "source_pin": "AH9",
+      "ball": "AH9",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.07285280088009367,
+      "second_distance_fraction_pitch": null,
+      "x": 515578480,
+      "y": 539248640,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_SPI",
+      "cell": "K30",
+      "anchor": "K30",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_SPI",
+      "display_pin": "AH9"
+    },
+    {
+      "source_pin": "M10",
+      "ball": "M10",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.06831831421145444,
+      "second_distance_fraction_pitch": null,
+      "x": 515304550,
+      "y": 535161670,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "AVDD_PLL_A1CC2C3",
+      "cell": "L14",
+      "anchor": "L14",
+      "label_source": "cell",
+      "raw_cell_value": "AVDD_PLL_A1CC2C3",
+      "display_pin": "M10"
+    },
+    {
+      "source_pin": "P10",
+      "ball": "P10",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.05797885326555599,
+      "second_distance_fraction_pitch": null,
+      "x": 515304550,
+      "y": 535673790,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VPP_FUSE",
+      "cell": "L16",
+      "anchor": "L16",
+      "label_source": "cell",
+      "raw_cell_value": "VPP_FUSE",
+      "display_pin": "P10"
+    },
+    {
+      "source_pin": "U10",
+      "ball": "U10",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.04298712340593036,
+      "second_distance_fraction_pitch": null,
+      "x": 515304550,
+      "y": 536441970,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_CAM",
+      "cell": "L19",
+      "anchor": "L19",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_CAM",
+      "display_pin": "U10"
+    },
+    {
+      "source_pin": "V10",
+      "ball": "V10",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.038236603440112246,
+      "second_distance_fraction_pitch": null,
+      "x": 515304550,
+      "y": 536698030,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "AVDD_PLL_G",
+      "cell": "L20",
+      "anchor": "L20",
+      "label_source": "cell",
+      "raw_cell_value": "AVDD_PLL_G",
+      "display_pin": "V10"
+    },
+    {
+      "source_pin": "AE12",
+      "ball": "AE12",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.05982005234289392,
+      "second_distance_fraction_pitch": null,
+      "x": 514776670,
+      "y": 538490450,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_SDMMC1_HVBIAS",
+      "cell": "N27",
+      "anchor": "N27",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_SDMMC1_HVBIAS",
+      "display_pin": "AE12"
+    },
+    {
+      "source_pin": "AE14",
+      "ball": "AE14",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.04949392485333787,
+      "second_distance_fraction_pitch": null,
+      "x": 514268790,
+      "y": 538490450,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_QSPI",
+      "cell": "P27",
+      "anchor": "P27",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_QSPI",
+      "display_pin": "AE14"
+    },
+    {
+      "source_pin": "H15",
+      "ball": "H15",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.08024567612403245,
+      "second_distance_fraction_pitch": null,
+      "x": 513994850,
+      "y": 534167430,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "AVDD_PLL_M",
+      "cell": "Q10",
+      "anchor": "Q10",
+      "label_source": "cell",
+      "raw_cell_value": "AVDD_PLL_M",
+      "display_pin": "H15"
+    },
+    {
+      "source_pin": "AE17",
+      "ball": "AE17",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.034755113243801074,
+      "second_distance_fraction_pitch": null,
+      "x": 513506970,
+      "y": 538490450,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VCLAMP_USB",
+      "cell": "S27",
+      "anchor": "S27",
+      "label_source": "cell",
+      "raw_cell_value": "VCLAMP_USB",
+      "display_pin": "AE17"
+    },
+    {
+      "source_pin": "AF18",
+      "ball": "AF18",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.033783517522409,
+      "second_distance_fraction_pitch": null,
+      "x": 513253030,
+      "y": 538746520,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "L0_HVDDIO_PEX",
+      "cell": "T28",
+      "anchor": "T28",
+      "label_source": "cell",
+      "raw_cell_value": "L0_HVDDIO_PEX",
+      "display_pin": "AF18"
+    },
+    {
+      "source_pin": "AG18",
+      "ball": "AG18",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.03778782166744337,
+      "second_distance_fraction_pitch": null,
+      "x": 513253030,
+      "y": 539002580,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "L1_HVDDIO_PEX",
+      "cell": "T29",
+      "anchor": "T29",
+      "label_source": "cell",
+      "raw_cell_value": "L1_HVDDIO_PEX",
+      "display_pin": "AG18"
+    },
+    {
+      "source_pin": "H20",
+      "ball": "H20",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.054059671929867714,
+      "second_distance_fraction_pitch": null,
+      "x": 512725150,
+      "y": 534167430,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "AVDD_PLL_X",
+      "cell": "V10",
+      "anchor": "V10",
+      "label_source": "cell",
+      "raw_cell_value": "AVDD_PLL_X",
+      "display_pin": "H20"
+    },
+    {
+      "source_pin": "AF20",
+      "ball": "AF20",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.02488771995705533,
+      "second_distance_fraction_pitch": null,
+      "x": 512745150,
+      "y": 538746520,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "L2_HVDDIO_PEX",
+      "cell": "V28",
+      "anchor": "V28",
+      "label_source": "cell",
+      "raw_cell_value": "L2_HVDDIO_PEX",
+      "display_pin": "AF20"
+    },
+    {
+      "source_pin": "AG20",
+      "ball": "AG20",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.02812392068104001,
+      "second_distance_fraction_pitch": null,
+      "x": 512745150,
+      "y": 539002580,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "L3_HVDDIO_PEX",
+      "cell": "V29",
+      "anchor": "V29",
+      "label_source": "cell",
+      "raw_cell_value": "L3_HVDDIO_PEX",
+      "display_pin": "AG20"
+    },
+    {
+      "source_pin": "AE21",
+      "ball": "AE21",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.01987440152034936,
+      "second_distance_fraction_pitch": null,
+      "x": 512491210,
+      "y": 538490450,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "AVDD_PLL_UEREFE",
+      "cell": "W27",
+      "anchor": "W27",
+      "label_source": "cell",
+      "raw_cell_value": "AVDD_PLL_UEREFE",
+      "display_pin": "AE21"
+    },
+    {
+      "source_pin": "AF21",
+      "ball": "AF21",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.02118314797712113,
+      "second_distance_fraction_pitch": null,
+      "x": 512491210,
+      "y": 538746520,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "L4_HVDDIO_PEX",
+      "cell": "W28",
+      "anchor": "W28",
+      "label_source": "cell",
+      "raw_cell_value": "L4_HVDDIO_PEX",
+      "display_pin": "AF21"
+    },
+    {
+      "source_pin": "AG21",
+      "ball": "AG21",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.02372263724476731,
+      "second_distance_fraction_pitch": null,
+      "x": 512491210,
+      "y": 539002580,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "L5_HVDDIO_PEX",
+      "cell": "W29",
+      "anchor": "W29",
+      "label_source": "cell",
+      "raw_cell_value": "L5_HVDDIO_PEX",
+      "display_pin": "AG21"
+    },
+    {
+      "source_pin": "AH21",
+      "ball": "AH21",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.02713207666170371,
+      "second_distance_fraction_pitch": null,
+      "x": 512491210,
+      "y": 539258640,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "HVDDIO_PEX",
+      "cell": "W30",
+      "anchor": "W30",
+      "label_source": "cell",
+      "raw_cell_value": "HVDDIO_PEX",
+      "display_pin": "AH21"
+    },
+    {
+      "source_pin": "AE23",
+      "ball": "AE23",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.018700062102633967,
+      "second_distance_fraction_pitch": null,
+      "x": 511983330,
+      "y": 538490450,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "HVDD_PEX_PLL_E",
+      "cell": "Y27",
+      "anchor": "Y27",
+      "label_source": "cell",
+      "raw_cell_value": "HVDD_PEX_PLL_E",
+      "display_pin": "AE23"
+    },
+    {
+      "source_pin": "AC25",
+      "ball": "AC25",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.0327941466266037,
+      "second_distance_fraction_pitch": null,
+      "x": 511475460,
+      "y": 537978330,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_GPIO_HV_BIAS",
+      "cell": "AA25",
+      "anchor": "AA25",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_GPIO_HV_BIAS",
+      "display_pin": "AC25"
+    },
+    {
+      "source_pin": "V26",
+      "ball": "V26",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.025724697865483048,
+      "second_distance_fraction_pitch": null,
+      "x": 511211520,
+      "y": 536718030,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_SYS",
+      "cell": "AB20",
+      "anchor": "AB20",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_SYS",
+      "display_pin": "V26"
+    },
+    {
+      "source_pin": "AC26",
+      "ball": "AC26",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.03713348169965999,
+      "second_distance_fraction_pitch": null,
+      "x": 511221520,
+      "y": 537978330,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_UART",
+      "cell": "AB25",
+      "anchor": "AB25",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_UART",
+      "display_pin": "AC26"
+    },
+    {
+      "source_pin": "AD26",
+      "ball": "AD26",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.032042027524036974,
+      "second_distance_fraction_pitch": null,
+      "x": 511221520,
+      "y": 538234390,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_GPIO_HV",
+      "cell": "AB26",
+      "anchor": "AB26",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_GPIO_HV",
+      "display_pin": "AD26"
+    },
+    {
+      "source_pin": "J28",
+      "ball": "J28",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.02411036959904162,
+      "second_distance_fraction_pitch": null,
+      "x": 510693640,
+      "y": 534423490,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_SDMMC3_HV",
+      "cell": "AD11",
+      "anchor": "AD11",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_SDMMC3_HV",
+      "display_pin": "J28"
+    },
+    {
+      "source_pin": "AF28",
+      "ball": "AF28",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.03066808841883243,
+      "second_distance_fraction_pitch": null,
+      "x": 510713640,
+      "y": 538746520,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_PEX_CTL",
+      "cell": "AD28",
+      "anchor": "AD28",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_PEX_CTL",
+      "display_pin": "AF28"
+    },
+    {
+      "source_pin": "J29",
+      "ball": "J29",
+      "ball_mapping": "source_ball_id",
+      "distance_fraction_pitch": 0.02197529871160271,
+      "second_distance_fraction_pitch": null,
+      "x": 510439700,
+      "y": 534423490,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_DEBUG",
+      "cell": "AE11",
+      "anchor": "AE11",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_DEBUG",
+      "display_pin": "J29"
+    },
+    {
+      "source_pin": "26",
+      "ball": "L26",
+      "ball_mapping": "geometry_to_unoccupied_ball",
+      "distance_fraction_pitch": 0.09666271996495504,
+      "second_distance_fraction_pitch": 0.9281798624353039,
+      "x": 511190000,
+      "y": 534945000,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_DMIC",
+      "cell": "AB13",
+      "anchor": "AB13",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_DMIC",
+      "display_pin": "L26"
+    },
+    {
+      "source_pin": "29",
+      "ball": "M26",
+      "ball_mapping": "geometry_to_unoccupied_ball",
+      "distance_fraction_pitch": 0.06045744087367058,
+      "second_distance_fraction_pitch": 0.9462014323847988,
+      "x": 511200000,
+      "y": 535195000,
+      "net_id": 641,
+      "original_net": "Net10",
+      "pad_name": "VDDIO_AUDIO",
+      "cell": "AB14",
+      "anchor": "AB14",
+      "label_source": "cell",
+      "raw_cell_value": "VDDIO_AUDIO",
+      "display_pin": "M26"
+    }
+  ],
+  "sources": {
+    "B": {
+      "title": "Supplied HEG-CPU-01 boardview and current full/NDA edition",
+      "path": "C:\\Users\\sebas\\Documents\\switchLCDpinuts\\output\\HEG-CPU-01_display_named.pcb",
+      "sha256": "492c6b506de063394830d3833bdaa0f909da3f38a7466e5755a6ee39d20ba0d1",
+      "scope": "Source net membership; no measured continuity claim."
+    },
+    "W": {
+      "title": "User Tegra T214 Ballout_v1.1.xlsx",
+      "path": "C:\\Users\\sebas\\Documents\\switchLCDpinuts\\Tegra T214 Ballout_v1.1.xlsx",
+      "sha256": "bdcc34f7643b1b050de568f9dd7572724b6c63ad371c24957d82119f626a8915",
+      "scope": "T214 sheet; exact cells recorded per signal; 36 Net10 supply balls rechecked."
+    },
+    "M": {
+      "title": "Samsung K4U6E3S4AA-MGCL datasheet, Rev 1.0, October 2018",
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20240929/7BB50846226B2390715312BE2DCC442F.pdf",
+      "scope": "Page 44, section 8.1, Table 17: VDD1 nominal 1.80 V; this is a consumer specification, not measured board regulation/tolerance."
+    },
+    "R": {
+      "title": "Analog Devices MAX77801 datasheet, Rev 7, January 2023",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/max77801.pdf",
+      "scope": "Pages 10-11, WLP pin table and output configuration; OUT at manufacturer C1/D1."
+    },
+    "L": {
+      "title": "CTCaer Switch L4T kernel release notes",
+      "url": "https://github.com/CTCaer/switch-l4t-kernel-4.9/releases",
+      "scope": "Identifies MAX77801 as the Switch OLED 3.3 V regulator."
+    },
+    "H1": {
+      "title": "Hekate display implementation",
+      "url": "https://raw.githubusercontent.com/CTCaer/hekate/master/bdk/display/di.c",
+      "scope": "display_init reset PV2, commented OLED status PH0, AMS699VC01 initialization and DCS brightness."
+    },
+    "H2": {
+      "title": "Hekate touchscreen implementation",
+      "url": "https://raw.githubusercontent.com/CTCaer/hekate/master/bdk/input/touch.c",
+      "scope": "touch_power_on: PJ7 reset, I2C3, LDO6 configured to 2900000 uV."
+    },
+    "S": {
+      "title": "Prior exact S2DOS04 function audit; Samsung SM-A530F service schematic page 8",
+      "url": "https://raw.githubusercontent.com/bizoonydb/db/main/SM-A530F_sch.pdf",
+      "path": "C:\\Users\\sebas\\Documents\\switchLCDpinuts\\output\\CHIP_pin_labels.json",
+      "sha256": "29533c90374ea9457011b8f8f67a7e855e561c95b8dbcc6e322005136b8a86d6",
+      "scope": "Retained previously reviewed pin table; 17 source-pad topology checks rerun. Online schematic could not be fetched on 2026-09-19. No phone-specific voltage or control behavior imported."
+    },
+    "I": {
+      "title": "iFixit Nintendo Switch OLED teardown, October 13, 2021",
+      "url": "https://www.ifixit.com/News/53272/nintendo-switch-oled-teardown-more-than-screen-deep",
+      "scope": "Independent S2DOS04 identification; memory population in this teardown differs from the supplied reference board."
+    },
+    "A": {
+      "title": "Local HEG-CPU-01 power-rail audit",
+      "path": "C:\\Users\\sebas\\Documents\\switchLCDpinuts\\output\\POWER_rail_labels.json",
+      "sha256": "ffd7c5069ab05c183099efb1772188a05cbdc6877e32b561d0c1b7c4649df135",
+      "scope": "Estimated touch supplies and exact regulator endpoints; uncertainty retained."
+    },
+    "P": {
+      "title": "Startek KD050HDOIN116-C000-a specification V1.0",
+      "path": "C:\\Users\\sebas\\Downloads\\KD050HDOIN116-C000-a SPEC V1.0.pdf",
+      "sha256": "b739071942405a895fcf2f2e89fdd61305a81f75c4401d73dc4de9d2e8ae16e3",
+      "scope": "Pages 7-8 contact assignment; page 12 operating supplies/currents; pages 18-19 sequencing."
+    },
+    "P2": {
+      "title": "Startek KD050HDOIN116-C000-4LANE initialization text",
+      "path": "C:\\Users\\sebas\\Downloads\\KD050HDOIN116-C000-4LANE initi code.txt",
+      "sha256": "9e611524b13007257740b13f6e68acd90ab5b980510bc0b044fbcc34d35b9585",
+      "scope": "VBAT 3.3-4.5 V, VCI 3.3 V, IOVCC 1.8 V and panel-specific initialization; read as data, not executed."
+    }
+  }
+}

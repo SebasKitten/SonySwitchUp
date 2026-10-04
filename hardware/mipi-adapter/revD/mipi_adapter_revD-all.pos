@@ -1,0 +1,30 @@
+### Footprint positions - created on 2026-10-03T23:38:13 ###
+### Printed by KiCad version 10.0.6
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                  Package                                                          PosX       PosY       Rot  Side
+C1        4.7uF_16V            C_0603_1608Metric                                             55.0500   -71.7500  -90.0000  top
+C2        100nF_50V            C_0603_1608Metric                                             57.1500   -71.7500  -90.0000  top
+C3        1uF_50V              C_0603_1608Metric                                             73.0000   -74.5000    0.0000  top
+C4        100nF_50V            C_0603_1608Metric                                             76.5000   -74.5000    0.0000  top
+C5        1uF_50V              C_0603_1608Metric                                             60.0000   -83.3000  180.0000  top
+C6        100nF_50V            C_0603_1608Metric                                             63.5000   -83.3000    0.0000  top
+C7        10nF_50V             C_0603_1608Metric                                             51.5500   -69.9000  180.0000  top
+C8        1uF_50V              C_0603_1608Metric                                             58.5000   -65.3000   90.0000  top
+C9        1uF_50V              C_0603_1608Metric                                             74.2000   -67.3000    0.0000  top
+C10       10nF_50V             C_0603_1608Metric                                             70.4000   -70.9000   90.0000  top
+J1        SWITCH_/_5033004310  Molex_503300_4310_front_left_1                                64.0000   -53.0000    0.0000  top
+J2        PANEL_/_FH26W-39S    Hirose_FH26-39S-0.3SHW_2Rows-39Pins-1MP_P0.60mm_Horizontal    64.0000   -78.0000   90.0000  top
+R1        1V8_jumper           R_0603_1608Metric                                             74.0000   -62.1000  180.0000  top
+R2        VCI_input_jumper     R_0603_1608Metric                                             74.0000   -65.0000    0.0000  top
+R4        RESET_jumper         R_0603_1608Metric                                             70.0000   -62.0500  180.0000  top
+R5        PANEL_EN_J           R_0603_1608Metric                                             52.7800   -59.5100  180.0000  top
+TP1       VBAT_IN              TestPoint_Pad_D1.5mm                                          56.6800   -62.8300    0.0000  top
+TP2       GND                  TestPoint_Pad_D1.5mm                                          50.0000   -73.0000    0.0000  top
+TP3       VDDIO                TestPoint_Pad_D1.5mm                                          50.0000   -80.0000    0.0000  top
+TP4       VCI                  TestPoint_Pad_D1.5mm                                          77.0000   -68.0000    0.0000  top
+TP5       TE                   TestPoint_Pad_D1.5mm                                          53.0000   -80.0000    0.0000  top
+TP7       PANEL_EN             TestPoint_Pad_D1.5mm                                          50.8400   -66.4000    0.0000  top
+U1        TPS22917DBVR         C2681320_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR                    55.7400   -67.7500   90.0000  top
+U2        TPS22917DBVR         C2681320_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR                    73.0000   -70.5000   90.0000  top
+## End

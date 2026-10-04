@@ -1,0 +1,174 @@
+{
+  "dsi_objects_identical": 265,
+  "dsi_object_types": {
+    "segment": 185,
+    "via": 20,
+    "arc": 60
+  },
+  "J1_J2_placement_and_all_pad_data_identical": true,
+  "stackup_identical": true,
+  "project_rules_identical": true,
+  "board_outline_identical": true,
+  "power_net_membership_checks": 8,
+  "VBAT_external_only": true,
+  "shared_enable": true,
+  "net_memberships": {
+    "/VBAT_IN": [
+      [
+        "C7",
+        "2"
+      ],
+      [
+        "C8",
+        "1"
+      ],
+      [
+        "TP1",
+        "1"
+      ],
+      [
+        "U1",
+        "1"
+      ]
+    ],
+    "/VBAT_CT": [
+      [
+        "C7",
+        "1"
+      ],
+      [
+        "U1",
+        "4"
+      ]
+    ],
+    "/VCI_IN": [
+      [
+        "C10",
+        "2"
+      ],
+      [
+        "C9",
+        "1"
+      ],
+      [
+        "R2",
+        "1"
+      ],
+      [
+        "U2",
+        "1"
+      ]
+    ],
+    "/VCI_CT": [
+      [
+        "C10",
+        "1"
+      ],
+      [
+        "U2",
+        "4"
+      ]
+    ],
+    "/PANEL_EN": [
+      [
+        "R5",
+        "1"
+      ],
+      [
+        "TP7",
+        "1"
+      ],
+      [
+        "U1",
+        "3"
+      ],
+      [
+        "U2",
+        "3"
+      ]
+    ],
+    "/VCI_PANEL": [
+      [
+        "C3",
+        "1"
+      ],
+      [
+        "C4",
+        "1"
+      ],
+      [
+        "J2",
+        "30"
+      ],
+      [
+        "TP4",
+        "1"
+      ],
+      [
+        "U2",
+        "5"
+      ],
+      [
+        "U2",
+        "6"
+      ]
+    ],
+    "/VBAT_PANEL": [
+      [
+        "C1",
+        "1"
+      ],
+      [
+        "C2",
+        "1"
+      ],
+      [
+        "J2",
+        "2"
+      ],
+      [
+        "J2",
+        "3"
+      ],
+      [
+        "J2",
+        "4"
+      ],
+      [
+        "J2",
+        "5"
+      ],
+      [
+        "J2",
+        "6"
+      ],
+      [
+        "U1",
+        "5"
+      ],
+      [
+        "U1",
+        "6"
+      ]
+    ],
+    "/HOST_3V3_CAND": [
+      [
+        "J1",
+        "9"
+      ],
+      [
+        "R2",
+        "2"
+      ],
+      [
+        "R5",
+        "2"
+      ]
+    ]
+  },
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "erc_errors": 0,
+  "erc_imported_symbol_warnings": 14
+}

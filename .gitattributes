@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+# Preserve the imported Rev D snapshot byte-for-byte, including validation hashes.
+hardware/mipi-adapter/revD/** -text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
+*.step binary
+*.stp binary
+*.wrl binary

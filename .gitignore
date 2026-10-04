@@ -1,0 +1,23 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# KiCad local state, locks, and automatic backups
+*.kicad_prl
+*.lck
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+~*
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Scratch work
+tmp/
+temp/

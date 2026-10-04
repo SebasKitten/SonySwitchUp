@@ -1,0 +1,38 @@
+MIPI ADAPTER REV D
+
+Open mipi_adapter_revD.kicad_pro in KiCad 10.
+
+POWER
+VBAT remains externally supplied at TP1 / VBAT_IN, with common ground at TP2 / GND.
+Keep the external VBAT feed within the panel operating range, including transients (4.5 V maximum in the supplied panel specification).
+U1 switches this external VBAT feed to the panel.
+U2 switches the existing host 3.3 V feed to VCI_PANEL through R2.
+The two input supplies are separate. Both TPS22917 ON pins share PANEL_EN.
+
+MANUAL JUMPERS
+R1: VDDIO / 1.8 V connection.
+R2: host 3.3 V connection to U2's VCI input.
+R4: panel reset connection.
+R5: ties shared PANEL_EN to host 3.3 V for automatic enabling.
+These remain DNP in the BOM, matching the original manual-jumper assembly approach.
+For an external enable signal at TP7 / EN, leave R5 open/remove it and actively drive EN high or low.
+Do not drive TP7 externally while R5 ties it to the host supply.
+
+COMPONENTS
+U1 and U2: TPS22917DBVR.
+C7 and C10: 10 nF CT-to-VIN timing capacitors, each referencing its own input supply.
+C8 and C9: 1 uF input bypass capacitors for U1 and U2 respectively.
+C1-C6 retain their original values.
+
+FILES
+mipi_adapter_revD.csv: BOM, including DNP/manual jumpers.
+mipi_adapter_revD-all.pos: all footprint locations, including jumpers/test pads.
+mipi_adapter_revD-assembly-pos.csv: fitted BOM components only; excludes manual jumpers and bare test pads.
+fabrication/: newly generated Rev D Gerbers and drill files.
+CHANGELOG.md: exact change list and CAD validation results.
+validation/: DRC, ERC, netlist and preservation checks.
+sources/: unchanged reference material from the original ZIP; historical notes in that folder do not override these Rev D instructions or the user's verified connector mapping.
+
+DSI/MIPI routing, connector pin mapping, board stackup and impedance rules are unchanged.
+Both switches share an enable, but independently supplied rails do not have a guaranteed relative startup order.
+PCB DRC/connectivity/parity pass. Hardware behavior has not been measured.

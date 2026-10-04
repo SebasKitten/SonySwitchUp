@@ -1,0 +1,414 @@
+{
+  "removed_copper_objects": [
+    {
+      "uuid": "4a4ce4e6-c525-4e9f-8307-acf69d8b1402",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "869444f7-5695-4cb6-ab23-1af8ee7d0fb9",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "a7a4106f-cb66-44b1-8d84-0c824d4d2169",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "85236b57-453f-4f9b-9282-3507a750e85e",
+      "type": "via",
+      "net": "/GND"
+    },
+    {
+      "uuid": "9e9a8d4e-c0f9-4873-91a2-60dace24d58e",
+      "type": "via",
+      "net": "/GND"
+    },
+    {
+      "uuid": "046a7873-4725-4321-a8ac-d97b5c42938d",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "08815fa1-fc0b-454e-ad60-bccfc7b277ad",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "26133573-a15c-4272-9cae-802493c851df",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "39b1b249-144c-425b-8906-70e2c4963612",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "3f69987a-2e7a-4cf9-8d65-84d49b2f3d62",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "4862f718-ad27-4457-a987-2df83c3ae30f",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "522322b9-ae55-4951-8ea2-cb4fbae978d0",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "55895f84-b669-4401-8271-f2e5992d6151",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "9d3d22af-1e70-401c-9a8b-6c0a28cb14d7",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "a22b9a9c-fa8f-4524-aca8-864291dac5a1",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "a7416828-deb9-47bc-af4a-a4a623407add",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "a76761d1-6480-4738-b8aa-6d27eff36d79",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "adfa4daa-2d80-462b-8d4c-c11eccd01d80",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "beab0444-0b1b-4839-bb21-990000a37a74",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "d1f3d599-a3cc-41e6-87ad-af303867300a",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "ffafaf40-e5c0-4fa5-8f7c-3493262487be",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    }
+  ],
+  "added_copper_objects": [
+    {
+      "uuid": "0a0b171b-0feb-4639-97b6-b4ff37cdb12e",
+      "type": "segment",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "10bc4ff7-2442-4d7b-b417-b0d4d42a1b2e",
+      "type": "segment",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "2f5a86e6-4c23-4e00-b685-e591d091afac",
+      "type": "segment",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "3e6a395e-1d9a-4778-9bfc-16f94c9826ab",
+      "type": "segment",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "5716dcde-a500-402b-a3cd-4e922fcb27c0",
+      "type": "segment",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "a1086cb3-5427-4e06-814b-9d618a3d73f7",
+      "type": "via",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "d470f861-224a-47b1-be4e-2f41240d4fa0",
+      "type": "via",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "0968f2ae-88bf-4d5c-ab0a-3089f8e20c16",
+      "type": "segment",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "94be60a7-62c1-45b2-b121-8b72922eb76c",
+      "type": "segment",
+      "net": "/VCI_IN"
+    },
+    {
+      "uuid": "37da5bd4-1295-4c70-b7a2-b92737439ab4",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "7d19fe37-4921-47c4-8ac3-b1d537a2f3d5",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "b592ec2b-d41c-41b1-9ea6-cc2bfd0b94f6",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "deea3938-bd46-4b6e-8fa2-e443f3c92803",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "ff803d5d-fb9b-48b4-b579-46b863c50152",
+      "type": "segment",
+      "net": "/GND"
+    },
+    {
+      "uuid": "4970076d-8417-42b5-ae05-5c5a10a48a20",
+      "type": "via",
+      "net": "/GND"
+    },
+    {
+      "uuid": "4acb1eea-6b13-4186-b14f-335b2474a9a0",
+      "type": "via",
+      "net": "/GND"
+    },
+    {
+      "uuid": "b39bb534-f2d4-4553-bdbb-be0b7ddedb02",
+      "type": "via",
+      "net": "/GND"
+    },
+    {
+      "uuid": "b766f745-cd64-4474-b2ff-7627916e6ff3",
+      "type": "via",
+      "net": "/GND"
+    },
+    {
+      "uuid": "ef087917-4d25-4d86-87f6-af6bcf163519",
+      "type": "via",
+      "net": "/GND"
+    },
+    {
+      "uuid": "178540a0-8443-4fec-99d3-a821ffbd77d8",
+      "type": "segment",
+      "net": "/PANEL_EN"
+    },
+    {
+      "uuid": "78f28b78-500c-434c-b1c9-ffc43ac51e09",
+      "type": "segment",
+      "net": "/PANEL_EN"
+    },
+    {
+      "uuid": "aba8f3fe-780f-40c0-9983-5d410730eb08",
+      "type": "segment",
+      "net": "/PANEL_EN"
+    },
+    {
+      "uuid": "a69f4616-ca51-4432-887e-93fb349e5284",
+      "type": "via",
+      "net": "/PANEL_EN"
+    },
+    {
+      "uuid": "fcefeceb-b4b1-4951-8cc3-3b5bd3bb15be",
+      "type": "via",
+      "net": "/PANEL_EN"
+    },
+    {
+      "uuid": "2453a80b-f918-4c21-8012-37ea895dc420",
+      "type": "segment",
+      "net": "/PANEL_EN"
+    },
+    {
+      "uuid": "5cef0c16-2718-48e2-b478-f2ddbb5bfb00",
+      "type": "segment",
+      "net": "/PANEL_EN"
+    },
+    {
+      "uuid": "29304503-01b7-4a02-a034-8ac0472424a1",
+      "type": "segment",
+      "net": "/VCI_CT"
+    },
+    {
+      "uuid": "caef85c0-bed2-47b5-a8b9-0c6bcb8e468d",
+      "type": "segment",
+      "net": "/VCI_CT"
+    },
+    {
+      "uuid": "1a123ec1-6466-4040-a2c6-ecb7f3ed6eb6",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "24d4f6ce-52b0-4696-bb85-0fee49bed142",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "2d2b6e82-3055-4974-ba8d-3c57bc0a3770",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "31befa06-dae9-4bcf-9b36-98feca918722",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "3fc227f9-7d73-42ae-87ff-050c1053ee6b",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "46347187-465e-4756-bf98-cb1f452e0939",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "4856a102-597c-482c-8add-60c2e2f8b23c",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "73fd0320-2c2e-4a3d-880a-dee8eb25145c",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "7beb663a-c2e4-4ed0-bce5-7ec5c141aeb1",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "a47a56b8-6db2-489a-aa84-f868022384a8",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "b90f5318-2abb-4904-bf8c-852604fb1f38",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "c6be7316-475b-4152-afb8-7add1e52c124",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "eedaf31f-1758-40e4-9e66-9a5b16b9e13d",
+      "type": "segment",
+      "net": "/VCI_PANEL"
+    },
+    {
+      "uuid": "aca2f3f4-9cd0-4f48-bdeb-5e40b0674e6e",
+      "type": "segment",
+      "net": "/VBAT_IN"
+    },
+    {
+      "uuid": "ea7046ab-f6b7-4ceb-ab41-427e602999b7",
+      "type": "segment",
+      "net": "/VBAT_IN"
+    },
+    {
+      "uuid": "fc881606-bc4d-4e5d-8fad-079ee8274f1e",
+      "type": "segment",
+      "net": "/VBAT_IN"
+    },
+    {
+      "uuid": "1462d0ff-170d-49c9-ba4d-9bd60b668906",
+      "type": "via",
+      "net": "/VBAT_IN"
+    },
+    {
+      "uuid": "a4914f67-af92-4295-b9d4-be7c8e2acb2b",
+      "type": "via",
+      "net": "/VBAT_IN"
+    },
+    {
+      "uuid": "0b954503-70a3-4e8a-b6b4-5ab1bbd26338",
+      "type": "segment",
+      "net": "/VBAT_IN"
+    },
+    {
+      "uuid": "598672b2-8967-4599-bad7-d19b059b2134",
+      "type": "segment",
+      "net": "/VBAT_IN"
+    }
+  ],
+  "modified_existing_copper_objects": [
+    {
+      "uuid": "1dd2e5f5-a232-4b28-89bc-67977ca6b37f",
+      "type": "segment",
+      "old_net": "Net-(U1-CT)",
+      "new_net": "/VBAT_CT",
+      "net_name_only": true
+    },
+    {
+      "uuid": "dfb9f905-f7f0-4aa6-ba99-dd82b1779d01",
+      "type": "segment",
+      "old_net": "Net-(U1-CT)",
+      "new_net": "/VBAT_CT",
+      "net_name_only": true
+    },
+    {
+      "uuid": "2eb66968-7cdd-4137-b54a-4240b0048485",
+      "type": "segment",
+      "old_net": "Net-(U1-VIN)",
+      "new_net": "/VBAT_IN",
+      "net_name_only": true
+    },
+    {
+      "uuid": "fc723b80-4327-4323-ab7f-cb4153857118",
+      "type": "segment",
+      "old_net": "Net-(U1-VIN)",
+      "new_net": "/VBAT_IN",
+      "net_name_only": true
+    },
+    {
+      "uuid": "075243eb-0cab-4096-821b-e0b7374b20cb",
+      "type": "segment",
+      "old_net": "Net-(U1-ON)",
+      "new_net": "/PANEL_EN",
+      "net_name_only": true
+    },
+    {
+      "uuid": "4bae5eac-08cb-4c78-8e0f-902b79ee6bba",
+      "type": "segment",
+      "old_net": "Net-(U1-ON)",
+      "new_net": "/PANEL_EN",
+      "net_name_only": true
+    },
+    {
+      "uuid": "af5bbee0-17c0-4323-a424-fd58f32415e6",
+      "type": "segment",
+      "old_net": "Net-(U1-ON)",
+      "new_net": "/PANEL_EN",
+      "net_name_only": true
+    },
+    {
+      "uuid": "ed554a75-4b2c-4f35-a475-7baa10430dde",
+      "type": "segment",
+      "old_net": "Net-(U1-ON)",
+      "new_net": "/PANEL_EN",
+      "net_name_only": true
+    }
+  ],
+  "counts": {
+    "removed_copper_objects": 21,
+    "added_copper_objects": 48,
+    "modified_existing_copper_objects": 8
+  }
+}

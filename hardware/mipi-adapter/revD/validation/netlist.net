@@ -1,0 +1,3664 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\seb\\Desktop\\switchstufffs\\output\\mipi_adapter_revD\\mipi_adapter_revD.kicad_sch")
+		(date "2026-10-03T23:36:14")
+		(tool "Eeschema 10.0.6")
+		(textvar
+			(name "DSI_TARGET") "100 ohm differential; JLC04161H-3313 L3, W0.103/G0.200 mm")
+		(textvar
+			(name "LAYER_ORDER") "L1 power+GND / L2 GND / L3 DSI / L4 GND")
+		(textvar
+			(name "RELEASE_STATUS") "REVIEW ONLY - cable mapping and power unverified")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "Switch OLED passive MIPI adapter")
+				(company)
+				(rev "D")
+				(date "2026-10-03")
+				(source "mipi_adapter_revD.kicad_sch")
+				(comment
+					(number "1")
+					(value "VBAT external supply and VCI load switches, shared enable")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "4.7uF 16V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C19666")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C1")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C19666")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "14a1d72e-b2f6-5a53-97ad-d692202fd1da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C14663")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C2")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dd0add78-8807-5314-aaae-3962dbf1bfa9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "1uF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C15849")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C3")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae8d9144-e493-554f-98fe-29bb3f7a5fab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100nF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C14663")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C4")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e06f5141-a392-50cb-93f3-b6808e862f16")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "1uF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C15849")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C5")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a4e73c2-1a8b-50f2-8d72-da1ff7ecca24")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100nF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C14663")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C6")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C14663")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9169ed50-a309-5d37-a6a8-c71609f980a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "10nF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf")
+			(description "10nF (103) ±10% 50V")
+			(fields
+				(field
+					(name "LCSC") "C57112")
+				(field
+					(name "Manufacturer") "FH(风华)")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf")
+				(field
+					(name "Description") "10nF (103) ±10% 50V")
+			)
+			(libsource
+				(lib "lcsc_imported")
+				(part "10nF_(103)_±10%_50V")
+				(description "10nF (103) ±10% 50V")
+			)
+			(property
+				(name "LCSC")
+				(value "C57112")
+			)
+			(property
+				(name "Manufacturer")
+				(value "FH(风华)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1ea63e3f-ae16-42de-beb4-223a59bef9d3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "1uF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C15849")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C3")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2453278e-d72b-4ac7-8cfc-5c15e7991d5a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "1uF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C15849")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "C3")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C15849")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3c69fa7b-5563-42c7-a506-0ceef4faa248")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "10nF 50V")
+			(footprint "Adapter:C_0603_1608Metric")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf")
+			(description "10nF (103) ±10% 50V")
+			(fields
+				(field
+					(name "LCSC") "C57112")
+				(field
+					(name "Manufacturer") "FH(风华)")
+				(field
+					(name "Footprint") "Adapter:C_0603_1608Metric")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf")
+				(field
+					(name "Description") "10nF (103) ±10% 50V")
+			)
+			(libsource
+				(lib "lcsc_imported")
+				(part "10nF_(103)_±10%_50V")
+				(description "10nF (103) ±10% 50V")
+			)
+			(property
+				(name "LCSC")
+				(value "C57112")
+			)
+			(property
+				(name "Manufacturer")
+				(value "FH(风华)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6b375a2d-a2ed-441e-964a-223f5e74727e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "SWITCH / 5033004310")
+			(footprint "Adapter:Molex_503300_4310_front_left_1")
+			(fields
+				(field
+					(name "LCSC") "C565041")
+				(field
+					(name "Footprint") "Adapter:Molex_503300_4310_front_left_1")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "J1")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C565041")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "839b41a4-ab7b-56a1-aab4-0cfd3cc26a18")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "PANEL / FH26W-39S")
+			(footprint "Adapter:Hirose_FH26-39S-0.3SHW_2Rows-39Pins-1MP_P0.60mm_Horizontal")
+			(fields
+				(field
+					(name "LCSC") "C92280")
+				(field
+					(name "Footprint") "Adapter:Hirose_FH26-39S-0.3SHW_2Rows-39Pins-1MP_P0.60mm_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "J2")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C92280")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c34417df-73f4-550f-b7bd-ae45aa029d56")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "MP")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1V8 jumper")
+			(footprint "Adapter:R_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C21189")
+				(field
+					(name "Footprint") "Adapter:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "R1")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C21189")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ad5e953b-c68d-5f2d-942b-2c4c7e903319")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "VCI input jumper")
+			(footprint "Adapter:R_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C21189")
+				(field
+					(name "Footprint") "Adapter:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "R2")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C21189")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6e4a8773-5de6-5318-877c-740983466093")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "RESET jumper")
+			(footprint "Adapter:R_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C21189")
+				(field
+					(name "Footprint") "Adapter:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "R4")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C21189")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ac7169d-c1be-5b4c-a696-e05c1b9ec244")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "PANEL_EN_J")
+			(footprint "Adapter:R_0603_1608Metric")
+			(fields
+				(field
+					(name "LCSC") "C21189")
+				(field
+					(name "Footprint") "Adapter:R_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "R4")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "C21189")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ef9601b0-fac4-4a09-9c5d-af17c0e5b7f2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "VBAT_IN")
+			(footprint "Adapter:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "Adapter:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "TP1")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "717fa007-8979-46da-9953-9c3a391af1a9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "GND")
+			(footprint "Adapter:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "Adapter:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "TP2")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca408474-41b7-547b-9e4b-266281e11110")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "VDDIO")
+			(footprint "Adapter:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "Adapter:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "TP3")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "24e6e209-6f8f-579b-ba9f-2e45872165dc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "VCI")
+			(footprint "Adapter:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "Adapter:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "TP4")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "abc8cb48-f53a-5f30-8e23-c005de3d6be9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP5")
+			(value "TE")
+			(footprint "Adapter:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "Adapter:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "TP5")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f8ba494f-01f9-5b02-bbbb-37352fa4770a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP7")
+			(value "PANEL_EN")
+			(footprint "Adapter:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "LCSC")
+				)
+				(field
+					(name "Footprint") "Adapter:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Adapter")
+				(part "TP1")
+				(description "")
+			)
+			(property
+				(name "LCSC")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5c478917-8533-43f5-8ccd-1d6fa06f7fc9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "TPS22917DBVR")
+			(footprint "lcsc_footprints:C2681320_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2303011100_Texas-Instruments-TPS22917DBVR_C2681320.pdf")
+			(description "TPS22917DBVR")
+			(fields
+				(field
+					(name "LCSC") "C2681320")
+				(field
+					(name "Manufacturer") "TI(德州仪器)")
+				(field
+					(name "Footprint") "lcsc_footprints:C2681320_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2303011100_Texas-Instruments-TPS22917DBVR_C2681320.pdf")
+				(field
+					(name "Description") "TPS22917DBVR")
+			)
+			(libsource
+				(lib "lcsc_imported")
+				(part "TPS22917DBVR")
+				(description "TPS22917DBVR")
+			)
+			(property
+				(name "LCSC")
+				(value "C2681320")
+			)
+			(property
+				(name "Manufacturer")
+				(value "TI(德州仪器)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3863041f-ca18-4fbc-a86c-8d3e4c15a377")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TPS22917DBVR")
+			(footprint "lcsc_footprints:C2681320_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2303011100_Texas-Instruments-TPS22917DBVR_C2681320.pdf")
+			(description "TPS22917DBVR")
+			(fields
+				(field
+					(name "LCSC") "C2681320")
+				(field
+					(name "Manufacturer") "TI(德州仪器)")
+				(field
+					(name "Footprint") "lcsc_footprints:C2681320_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2303011100_Texas-Instruments-TPS22917DBVR_C2681320.pdf")
+				(field
+					(name "Description") "TPS22917DBVR")
+			)
+			(libsource
+				(lib "lcsc_imported")
+				(part "TPS22917DBVR")
+				(description "TPS22917DBVR")
+			)
+			(property
+				(name "LCSC")
+				(value "C2681320")
+			)
+			(property
+				(name "Manufacturer")
+				(value "TI(德州仪器)")
+			)
+			(property
+				(name "Sheetname")
+				(value "mipi_adapter_revD")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mipi_adapter_revD.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "127f0baf-be41-467f-a95d-48ab3f1c3183")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Adapter")
+			(part "C1")
+			(fields
+				(field
+					(name "Reference") "C1")
+				(field
+					(name "Value") "4.7uF 16V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "C2")
+			(fields
+				(field
+					(name "Reference") "C2")
+				(field
+					(name "Value") "100nF 50V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "C3")
+			(fields
+				(field
+					(name "Reference") "C3")
+				(field
+					(name "Value") "1uF 50V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "C4")
+			(fields
+				(field
+					(name "Reference") "C4")
+				(field
+					(name "Value") "100nF 50V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "C5")
+			(fields
+				(field
+					(name "Reference") "C5")
+				(field
+					(name "Value") "1uF 50V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "C6")
+			(fields
+				(field
+					(name "Reference") "C6")
+				(field
+					(name "Value") "100nF 50V")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "J1")
+			(fields
+				(field
+					(name "Reference") "J1")
+				(field
+					(name "Value") "SWITCH / 5033004310")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "HOST_3V3_CAND")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "DSI_D2_N")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "DSI_D2_P")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "DSI_D1_N")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "DSI_D1_P")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "DSI_CLK_N")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "DSI_CLK_P")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "DSI_D0_N")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "DSI_D0_P")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "DSI_D3_N")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "DSI_D3_P")
+					(type "passive")
+				)
+				(pin
+					(num "35")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "36")
+					(name "HOST_RESET")
+					(type "passive")
+				)
+				(pin
+					(num "37")
+					(name "HOST_1V8_CAND")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "40")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "41")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "42")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "43")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "MP")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "J2")
+			(fields
+				(field
+					(name "Reference") "J2")
+				(field
+					(name "Value") "PANEL / FH26W-39S")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "VBAT_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "VBAT_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "VBAT_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "VBAT_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "VBAT_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "TE_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "RESET_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "VDDIO_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "DSI_D2_P")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "DSI_D2_N")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "DSI_D1_P")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "DSI_D1_N")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "DSI_CLK_P")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "DSI_CLK_N")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "DSI_D0_P")
+					(type "passive")
+				)
+				(pin
+					(num "25")
+					(name "DSI_D0_N")
+					(type "passive")
+				)
+				(pin
+					(num "26")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "27")
+					(name "DSI_D3_P")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "DSI_D3_N")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "30")
+					(name "VCI_PANEL")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "32")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "33")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "35")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "36")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "37")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "MP")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "R1")
+			(fields
+				(field
+					(name "Reference") "R1")
+				(field
+					(name "Value") "0R DNP - verify 1V8")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "R2")
+			(fields
+				(field
+					(name "Reference") "R2")
+				(field
+					(name "Value") "0R DNP - verify 3V3")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "R4")
+			(fields
+				(field
+					(name "Reference") "R4")
+				(field
+					(name "Value") "0R DNP - verify RESET level")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "TP1")
+			(fields
+				(field
+					(name "Reference") "TP1")
+				(field
+					(name "Value") "VBAT_EXT")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "TP2")
+			(fields
+				(field
+					(name "Reference") "TP2")
+				(field
+					(name "Value") "GND")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "TP3")
+			(fields
+				(field
+					(name "Reference") "TP3")
+				(field
+					(name "Value") "VDDIO")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "TP4")
+			(fields
+				(field
+					(name "Reference") "TP4")
+				(field
+					(name "Value") "VCI")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "TP5")
+			(fields
+				(field
+					(name "Reference") "TP5")
+				(field
+					(name "Value") "TE")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Adapter")
+			(part "TP6")
+			(fields
+				(field
+					(name "Reference") "TP6")
+				(field
+					(name "Value") "RESET")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "lcsc_imported")
+			(part "10nF_(103)_±10%_50V")
+			(description "10nF (103) ±10% 50V")
+			(docs "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "10nF (103) ±10% 50V")
+				(field
+					(name "Footprint") "lcsc_footprints:C57112_C0603")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf")
+				(field
+					(name "Description") "10nF (103) ±10% 50V")
+				(field
+					(name "LCSC") "C57112")
+				(field
+					(name "Manufacturer") "FH(风华)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "lcsc_imported")
+			(part "TPS22917DBVR")
+			(description "TPS22917DBVR")
+			(docs "https://www.lcsc.com/datasheet/lcsc_datasheet_2303011100_Texas-Instruments-TPS22917DBVR_C2681320.pdf")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS22917DBVR")
+				(field
+					(name "Footprint") "lcsc_footprints:C2681320_SOT-23-6_L2_9-W1_6-P0_95-LS2_8-BR")
+				(field
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2303011100_Texas-Instruments-TPS22917DBVR_C2681320.pdf")
+				(field
+					(name "Description") "TPS22917DBVR")
+				(field
+					(name "LCSC") "C2681320")
+				(field
+					(name "Manufacturer") "TI(德州仪器)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VIN")
+					(type "unspecified")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "unspecified")
+				)
+				(pin
+					(num "3")
+					(name "ON")
+					(type "unspecified")
+				)
+				(pin
+					(num "4")
+					(name "CT")
+					(type "unspecified")
+				)
+				(pin
+					(num "5")
+					(name "QOD")
+					(type "unspecified")
+				)
+				(pin
+					(num "6")
+					(name "VOUT")
+					(type "unspecified")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Adapter")
+			(uri "${KIPRJMOD}/Adapter.kicad_sym")
+		)
+		(library
+			(logical "lcsc_imported")
+			(uri "${KIPRJMOD}/libs/lcsc/symbols/lcsc_imported.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/DSI_CLK_N")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "27")
+				(pinfunction "DSI_CLK_N_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "22")
+				(pinfunction "DSI_CLK_N_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/DSI_CLK_P")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "28")
+				(pinfunction "DSI_CLK_P_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "21")
+				(pinfunction "DSI_CLK_P_21")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/DSI_D0_N")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "30")
+				(pinfunction "DSI_D0_N_30")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "25")
+				(pinfunction "DSI_D0_N_25")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/DSI_D0_P")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "31")
+				(pinfunction "DSI_D0_P_31")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "24")
+				(pinfunction "DSI_D0_P_24")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "5")
+			(name "/DSI_D1_N")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "24")
+				(pinfunction "DSI_D1_N_24")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "19")
+				(pinfunction "DSI_D1_N_19")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "6")
+			(name "/DSI_D1_P")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "25")
+				(pinfunction "DSI_D1_P_25")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "18")
+				(pinfunction "DSI_D1_P_18")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/DSI_D2_N")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "21")
+				(pinfunction "DSI_D2_N_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "16")
+				(pinfunction "DSI_D2_N_16")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/DSI_D2_P")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "22")
+				(pinfunction "DSI_D2_P_22")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "15")
+				(pinfunction "DSI_D2_P_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/DSI_D3_N")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "33")
+				(pinfunction "DSI_D3_N_33")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "28")
+				(pinfunction "DSI_D3_N_28")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/DSI_D3_P")
+			(class "DSI_*,Default")
+			(node
+				(ref "J1")
+				(pin "34")
+				(pinfunction "DSI_D3_P_34")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "27")
+				(pinfunction "DSI_D3_P_27")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "20")
+				(pinfunction "GND_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "23")
+				(pinfunction "GND_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "26")
+				(pinfunction "GND_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "29")
+				(pinfunction "GND_29")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "32")
+				(pinfunction "GND_32")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "35")
+				(pinfunction "GND_35")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "MP")
+				(pinfunction "GND_MP")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "14")
+				(pinfunction "GND_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "17")
+				(pinfunction "GND_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "20")
+				(pinfunction "GND_20")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "23")
+				(pinfunction "GND_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "26")
+				(pinfunction "GND_26")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "29")
+				(pinfunction "GND_29")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "31")
+				(pinfunction "GND_31")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "39")
+				(pinfunction "GND_39")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "9")
+				(pinfunction "GND_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "MP")
+				(pinfunction "GND_MP")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "12")
+			(name "/HOST_1V8_CAND")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "37")
+				(pinfunction "HOST_1V8_CAND_37")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/HOST_3V3_CAND")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "9")
+				(pinfunction "HOST_3V3_CAND_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/HOST_RESET")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "36")
+				(pinfunction "HOST_RESET_36")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/PANEL_EN")
+			(class "Default")
+			(node
+				(ref "R5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "ON_3")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "ON_3")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "16")
+			(name "/RESET_PANEL")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "12")
+				(pinfunction "RESET_PANEL_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/TE_PANEL")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "11")
+				(pinfunction "TE_PANEL_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "/VBAT_CT")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "CT_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "19")
+			(name "/VBAT_IN")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "VIN_1")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "20")
+			(name "/VBAT_PANEL")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "VBAT_PANEL_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "VBAT_PANEL_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "4")
+				(pinfunction "VBAT_PANEL_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "5")
+				(pinfunction "VBAT_PANEL_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "6")
+				(pinfunction "VBAT_PANEL_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "QOD_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "VOUT_6")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "21")
+			(name "/VCI_CT")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "CT_4")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "22")
+			(name "/VCI_IN")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "VIN_1")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "23")
+			(name "/VCI_PANEL")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "30")
+				(pinfunction "VCI_PANEL_30")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "QOD_5")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "VOUT_6")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "24")
+			(name "/VDDIO_PANEL")
+			(class "Default")
+			(node
+				(ref "C5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "13")
+				(pinfunction "VDDIO_PANEL_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(J1-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(J1-NC-Pad2)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "NC_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(J1-NC-Pad3)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "NC_3")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(J1-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(J1-NC-Pad5)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "5")
+				(pinfunction "NC_5")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(J1-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(J1-NC-Pad8)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "8")
+				(pinfunction "NC_8")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(J1-NC-Pad11)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "11")
+				(pinfunction "NC_11")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(J1-NC-Pad12)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "12")
+				(pinfunction "NC_12")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(J1-NC-Pad13)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "13")
+				(pinfunction "NC_13")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(J1-NC-Pad14)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "14")
+				(pinfunction "NC_14")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(J1-NC-Pad15)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "15")
+				(pinfunction "NC_15")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(J1-NC-Pad16)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "16")
+				(pinfunction "NC_16")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(J1-NC-Pad17)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "17")
+				(pinfunction "NC_17")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(J1-NC-Pad19)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "19")
+				(pinfunction "NC_19")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(J1-NC-Pad38)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "38")
+				(pinfunction "NC_38")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(J1-NC-Pad39)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "39")
+				(pinfunction "NC_39")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(J1-NC-Pad40)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "40")
+				(pinfunction "NC_40")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(J1-NC-Pad41)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "41")
+				(pinfunction "NC_41")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "44")
+			(name "unconnected-(J1-NC-Pad42)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "42")
+				(pinfunction "NC_42")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "45")
+			(name "unconnected-(J1-NC-Pad43)")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "43")
+				(pinfunction "NC_43")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "46")
+			(name "unconnected-(J2-NC-Pad10)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "10")
+				(pinfunction "NC_10")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(J2-NC-Pad32)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "32")
+				(pinfunction "NC_32")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(J2-NC-Pad33)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "33")
+				(pinfunction "NC_33")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(J2-NC-Pad34)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "34")
+				(pinfunction "NC_34")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(J2-NC-Pad35)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "35")
+				(pinfunction "NC_35")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(J2-NC-Pad36)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "36")
+				(pinfunction "NC_36")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(J2-NC-Pad37)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "37")
+				(pinfunction "NC_37")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(J2-NC-Pad38)")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "38")
+				(pinfunction "NC_38")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)

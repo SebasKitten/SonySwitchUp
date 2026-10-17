@@ -18,6 +18,16 @@ This revision is designed for that specific screen, whose [specification is incl
 
 ## Status
 
-**Work in progress.** Only the MIPI adapter Rev D files are included so far. The adapter is unfinished and has not been validated on powered hardware; the complete VAIO UX kit and other project components will follow as development progresses.
+**Work in progress.** 
+
+Please do not use these files yet. as I am mostly developing locally and this is currently just a placeholder.
+
+I've already gotten new revisions done and will soon be in the stages of ordering prototypes and testing.
+
+this project will have both a MIPI Adapter. and have an USB HID controller to connect the UX Keyboard to any USB device.
+
+
+
+Only the MIPI adapter Rev D files are included so far. The adapter is unfinished and has not been validated on powered hardware; the complete VAIO UX kit and other project components will follow as development progresses.
 
 A project license has not been selected yet. Included third-party documents and libraries retain their respective ownership and license terms.
